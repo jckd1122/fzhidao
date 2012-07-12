@@ -112,7 +112,7 @@ def main():
         else:
             log.info('end at ' + str(i))
             break 
-
+    ## i corresponding to index, element corresponding to contetnt, which is a list itself
     for i, element in enumerate(a):
         log.debug(element)
         if(parseFile(element)==False):
