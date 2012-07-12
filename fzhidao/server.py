@@ -18,6 +18,7 @@ result=[]
 datetime2=''
 output = codecs.open('result.csv', 'w', encoding='utf-8') 
 
+## fetch() and parselist's purpose not clear
 def fetch(i, o):
     try:
         link = pq(o).find('a').attr('href')
